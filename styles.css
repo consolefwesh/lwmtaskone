@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    font-family: sans-serif;
+    /* max-width: 1400px; */
+}
+
+.first-nav {
+    padding: .5rem 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 45px;
+    width: 125px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.person {
+    font-size: 29px;
+    margin: 0 0 -23px 0;
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 0, 128, 0.873);
+    padding: 0 6.5rem;
+    /* height: 3.5rem; */
+}
+
+.nav-div {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: rgb(234, 181, 20);
+    padding: .2rem 3rem;
+    border: none;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.first-nav-div {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.second-nav-div {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.section-one {
+    background-image: url(https://ecommerce-fe-steel.vercel.app/static/media/banner-bg.6fc6d1966582d04d3f4f.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.512);
+    padding: 9.9rem 0 9.9rem 8.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.importance {
+    font-size: 47px;
+}
+
+.order-now {
+    background-color: rgb(234, 181, 20);
+    padding: .8rem 0;
+    border: none;
+    width: 12rem;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid rgba(234, 181, 20, 0.729);
+    margin: 2rem 0 1rem 0;
+    padding: 0 1.5rem;
+    height: 70px;
+}
+
+.arrival-heading {
+    padding-left: 8.8rem;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 2.2rem 0 .7rem 0;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    width: 1158px;
+    margin: auto;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+.arrival-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    /* align-items: center; */
+}
+
+img {
+    width: 23rem;
+    height: 16rem;
+    border: none;
+}
+
+.arrival-div {
+    color: gray;
+    padding: 0 0 0 2rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.arrival-paragraph {
+    color: black;
+    font-weight: 500;
+}
+
+#read-more {
+    background-color: rgba(51, 0, 128, 0.873);
+    color: white;
+    padding: .7rem 3rem;
+    text-align: center;
+    width: 12rem;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    margin: .5rem 0 6rem 0;
+}
+
+.section-four-article {
+    line-height: 2;
+    color: rgb(124, 122, 122);
+}
+
+.section-four-headings {
+    color: rgba(38, 42, 44, 0.445);
+}
+
+footer {
+    display: flex;
+    background-color: rgb(31 41 55/1);
+    color: white;
+    padding: 1.3rem 5rem;
+    height: 17px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img {
+    height: 20px;
+    width: fit-content;
+}
+
+
+/* h4 {
+    margin: 0;
+} */
