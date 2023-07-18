@@ -8,6 +8,7 @@ body {
     margin: 0;
     max-width: 100vw;
     font-family: sans-serif;
+    overflow: hidden;
     /* max-width: 1400px; */
 }
 
@@ -58,6 +59,10 @@ body {
     display: flex;
     align-items: center;
     gap: .5rem;
+}
+
+.nav-button-mobile {
+    display: none;
 }
 
 a {
@@ -128,7 +133,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     width: 1158px;
     margin: auto;
     padding: 20px 10px;
@@ -199,7 +204,45 @@ footer {
     width: fit-content;
 }
 
-
-/* h4 {
-    margin: 0;
-} */
+@media screen and (max-width: 768px) {
+    .first-nav-div,
+    .second-nav-div {
+        display: none;
+    }
+    .nav-div {
+        justify-content: space-between;
+    }
+    .nav-button-mobile {
+        display: flex;
+    }
+    .section-three {
+        flex-direction: column;
+        /* margin: 0 auto; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .section-two {
+        /* display: flex; */
+        flex-direction: column;
+        max-width: fit-content;
+        margin: 0 auto;
+        /* justify-content: center; */
+        gap: 0rem;
+    }
+    .section-four {
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+        padding: 0 10%;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+        height: auto;
+    }
+    footer p {
+        margin-bottom: 1rem;
+    }
+}
