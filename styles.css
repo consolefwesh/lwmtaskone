@@ -8,7 +8,7 @@ body {
     margin: 0;
     max-width: 100vw;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     /* max-width: 1400px; */
 }
 
@@ -147,10 +147,16 @@ a {
     /* align-items: center; */
 }
 
-img {
+.section-three img {
+    transition: transform .2s;
     width: 22rem;
     height: 16rem;
     border: none;
+}
+
+.section-three img:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .arrival-div {
@@ -211,9 +217,12 @@ footer {
     }
     .nav-div {
         justify-content: space-between;
+        width: 100%;
     }
     .nav-button-mobile {
         display: flex;
+        background: transparent;
+        border: none;
     }
     .section-three {
         flex-direction: column;
@@ -244,5 +253,8 @@ footer {
     }
     footer p {
         margin-bottom: 1rem;
+    }
+    .footer-img {
+        width: auto;
     }
 }
